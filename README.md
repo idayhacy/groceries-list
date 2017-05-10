@@ -1,7 +1,12 @@
 # hello-world-xenon
 
-## 1. Compile: `groceries-xenon$ mvn clean install` ##
-## 2. Run: `groceries-xenon$ java -jar target/groceries-xenon-0.0.1-SNAPSHOT-jar-with-dependencies.jar` ## 
+## 1. Compile
+`groceries-xenon$ mvn clean install` ##
+
+## 2. Run 
+
+`groceries-xenon$ java -jar target/groceries-xenon-0.0.1-SNAPSHOT-jar-with-dependencies.jar` ## 
+
 ## 3. Create Users ## 
 
 ```
