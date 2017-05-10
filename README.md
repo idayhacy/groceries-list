@@ -1,8 +1,8 @@
 # hello-world-xenon
 
-1. `groceries-xenon$ mvn clean install`
-2. `groceries-xenon$ java -jar target/groceries-xenon-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
-3. Create Users:
+## 1. Compile: `groceries-xenon$ mvn clean install` ##
+## 2. Run: `groceries-xenon$ java -jar target/groceries-xenon-0.0.1-SNAPSHOT-jar-with-dependencies.jar` ## 
+## 3. Create Users ## 
 
 ```
 POST http://127.0.0.1:8000/groceries/users/
@@ -34,7 +34,7 @@ GET http://127.0.0.1:8000/groceries/users/
 }
 ```
 
-4. Create Stores:
+## 4. Create Stores ## 
 
 ```
 POST http://127.0.0.1:8000/groceries/stores/
@@ -65,7 +65,7 @@ GET http://127.0.0.1:8000/groceries/stores/
 }
 ```
 
-5. Create Groceries Items Wishlist:
+## 5. Create Groceries Items Wishlist ##  
 
 ```
 POST http://127.0.0.1:8000/groceries/requests/
@@ -106,7 +106,7 @@ GET http://127.0.0.1:8000/groceries/requests/33ea192026a0ec7554f2ff4e342e8
 }
 ```
 
-6. Update Groceries Items Wishlist:
+## 6. Update Groceries Items Wishlist ## 
 Notice the documentVersion incremented
 
 ```
