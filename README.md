@@ -1,4 +1,6 @@
-# hello-world-xenon
+# Groceries List App
+
+An app that allows users (say a family) to put down requests for groceries items, and then compile the groceries list per store, or per user
 
 ## 1. Compile ##
 `groceries-xenon$ mvn clean install`
@@ -138,4 +140,12 @@ GET http://127.0.0.1:8000/groceries/requests/33ea192026a0ec7554f2ff4e342e8
   "documentUpdateAction": "PUT",
   "documentExpirationTimeMicros": 0
 }
+```
+
+## 7. Lookup groceries list by stores ## 
+(NOTE: Not yet working)
+
+```
+GET http://127.0.0.1:8000/groceries/list/stores/safeway
+
 ```

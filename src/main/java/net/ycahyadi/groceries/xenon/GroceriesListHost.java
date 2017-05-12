@@ -16,6 +16,7 @@ public class GroceriesListHost extends ServiceHost {
         super.startFactory(UserService.class, UserService::createFactory);
         super.startFactory(StoreService.class, StoreService::createFactory);
         super.startFactory(ItemRequestService.class, ItemRequestService::createFactory);
+        super.startService(new GroceriesListService());
         return this;
     }
 }

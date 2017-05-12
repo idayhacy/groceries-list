@@ -9,7 +9,8 @@ import com.vmware.xenon.common.StatefulService;
 public class StoreService extends StatefulService {
     private static final Logger logger = Logger.getLogger(StoreService.class.getName());
 
-    public static final String FACTORY_LINK = "/groceries/stores";
+    public static final String STORES_SUFFIX = "stores";
+    public static final String FACTORY_LINK = "/groceries/" + STORES_SUFFIX;
 
     public static FactoryService createFactory() {
         // this creates a StoreService factory that generates services whose self links
