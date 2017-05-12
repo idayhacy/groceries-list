@@ -143,9 +143,23 @@ GET http://127.0.0.1:8000/groceries/requests/33ea192026a0ec7554f2ff4e342e8
 ```
 
 ## 7. Lookup groceries list by stores ## 
-(NOTE: Not yet working)
 
 ```
 GET http://127.0.0.1:8000/groceries/list/stores/safeway
 
+{
+  "/groceries/requests/4022cf039505be7554f58cbe0c518": {
+    "requestingusername": "yogibear",
+    "storenickname": "safeway",
+    "item": "dish soap",
+    "quantity": "2",
+    "units": "bottles",
+    "documentVersion": 0,
+    "documentKind": "net:ycahyadi:groceries:xenon:ItemRequestService:ItemRequestState",
+    "documentSelfLink": "/groceries/requests/4022cf039505be7554f58cbe0c518",
+    "documentUpdateTimeMicros": 1494617679775001,
+    "documentUpdateAction": "POST",
+    "documentExpirationTimeMicros": 0
+  }
+}
 ```
